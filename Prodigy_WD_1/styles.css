@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+ #navbar {
+    position: fixed;
+    top: 15px;
+    width: 100%;
+    background-color: black;
+    border-radius: 36px;
+}
+
+  #navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    overflow: auto;
+  }
+
+  #navbar h1 {
+    float: left;
+    list-style: none;
+    margin: 12px 15px;
+    padding: 10px;
+  }
+
+  #navbar a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+  #navbar a:hover {
+    color: rgb(241, 21, 9);
+  }
+
+  .search{
+    float: right;
+    color: black;
+    padding: 12px 75px;
+}
+
+  #navbar:hover {
+    background-color: rgba(30, 29, 29, 0.726);
+  }
+
+  #navbar ul h1 a.active{
+    color: rgb(0, 186, 0);
+    border: 1.5px solid rgb(6, 101, 95);
+    text-decoration: wavy;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+  #navbar input{
+    border-radius: 15px;
+    padding: 12px 51px;
+    width: 279px;
+    text-align: center;
+}
+
+  .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #070707;
+  }
+  .section1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ede7e7;
+  }
+
+  .section2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eae6e2;
+  }
+  .section3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #20f347;
+  }
+  .section4{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d720b9;
+  }
+  
+  
+  #home {
+    background: url("https://img.freepik.com/premium-vector/abstract-technology-background-science-connecting-technology_42705-96.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  #about{
+    background: url("https://img.freepik.com/premium-vector/abstract-technology-background-science-connecting-technology_42705-96.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  #services {
+    background: url("https://img.freepik.com/premium-vector/abstract-technology-background-science-connecting-technology_42705-96.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  #contact {
+    background: url("https://img.freepik.com/premium-vector/abstract-technology-background-science-connecting-technology_42705-96.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  
+  #navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+
+  
+
+  #typingText {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    border: 2px solid #333;
+    padding: 10px;
+}
+
+.logo {
+  margin-left: auto; }
+img {
+  width: 8%;
+  height: 0%;
+}
